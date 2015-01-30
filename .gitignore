@@ -12,6 +12,7 @@
 *.log
 *.js
 *.map
+!example.js
 !src/js/vendor/*
 _cordova
 _cordova/*
