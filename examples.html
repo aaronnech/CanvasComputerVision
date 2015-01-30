@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Canvas CV Examples</title>
+    <script src="src/vendor/linlib.js"></script>
+    <script src="src/cvcanvas.compiled.js"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <h1>Original Image:</h1>
+    <img src="img/giraffe.png" id="giraffe" />
+    <h1>Inverted:</h1>
+    <canvas id="inverted" width="300" height="300"></canvas>
+    <h1>Channels:</h1>
+    <canvas id="redCh" width="300" height="300"></canvas>
+    <canvas id="greenCh" width="300" height="300"></canvas>
+    <canvas id="blueCh" width="300" height="300"></canvas>
+    <h1>B&W:</h1>
+    <canvas id="bw" width="300" height="300"></canvas>
+    <h1>Convolutions:</h1>
+    <canvas id="edge" width="300" height="300"></canvas>
+    <canvas id="hder" width="300" height="300"></canvas>
+    <canvas id="vder" width="300" height="300"></canvas>
+    <canvas id="mb" width="300" height="300"></canvas>
+
+    <!-- Include the examples javascript -->
+    <script src="examples.js" data-main="examples"></script>
+</body>
+</html>

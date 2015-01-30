@@ -1,0 +1,14 @@
+{
+    "name": "CanvasCV",
+    "version": "0.0.1",
+    "description": "A canvas computer vision library",
+    "main": "index.js",
+    "scripts": {
+        "make": "cd src; ../node_modules/.bin/tsc --out ./cvcanvas.compiled.js ./CVCanvas.ts; cd .."
+    },
+    "dependencies": {
+        "typescript": "latest"
+    },
+    "author": "Aaron Nech",
+    "license": "N/A"
+}
